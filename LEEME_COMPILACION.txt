@@ -1,0 +1,18 @@
+LA TIENDITA — CONFIGURACIÓN PARA NETBEANS Y MAVEN
+
+Clase principal única: com.discount3a.Main
+
+Requisitos: JDK 17 o superior, Maven (NetBeans puede gestionar Maven) y conexión a Internet para descargar dependencias la primera vez.
+
+EN NETBEANS:
+1. Abre como proyecto la carpeta la-tiendita que contiene pom.xml.
+2. Clic derecho al proyecto la-tiendita > Clean and Build.
+3. Para ejecutar, clic derecho al proyecto > Run. La acción Maven queda configurada para iniciar com.discount3a.Main.
+4. Si NetBeans pregunta por la clase principal, abre Project Properties > Actions/Run y usa com.discount3a.Main.
+
+POR TERMINAL:
+  mvn clean test
+  mvn clean package
+  java -jar target/la-tiendita-1.0.jar
+
+Nota: La configuración fija com.discount3a.Main como entrada y elimina Main2.java duplicado para evitar confusión. La compilación completa debe verificarse en un equipo con Maven y dependencias disponibles.

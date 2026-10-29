@@ -1,0 +1,26 @@
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# NetBeans / IDE
+nbproject/private/
+nbbuild/
+dist/
+.nb-gradle/
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local runtime data (keep examples/templates only if intentionally committed)
+datos/
+*.tmp
